@@ -369,17 +369,6 @@ body {
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
-.project1{
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-skills{
- 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+.project{
+  display;
 }

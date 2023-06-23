@@ -81,6 +81,7 @@ body {
   z-index: 20;
   background: var(--bg-primary);
 }
+.con
 
 .navbar .container {
   display: flex;
@@ -213,6 +214,7 @@ body {
 #footer {
   background: #111111;
 }
+.c
 
 #footer .container {
   display: flex;
@@ -260,6 +262,8 @@ body {
 
   .content{
     margin-top: 100px;
+   
+    
     align-items: center;
   }
 
@@ -369,17 +373,4 @@ body {
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
-.project1{
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-skills{
- 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
+.con

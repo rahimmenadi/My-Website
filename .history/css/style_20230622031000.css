@@ -369,17 +369,40 @@ body {
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
-.project1{
-
+.project-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.profile-skills{
- 
+.content {
   display: flex;
   justify-content: center;
+}
+
+.profile-skills {
+  display: flex;
+}
+
+.skills {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.skills li {
+  margin-right: 10px;
+}
+
+.more {
+  display: flex;
   align-items: center;
-  
+  margin-top: 10px;
+}
+
+.more div {
+  display: flex;
+  justify-content: center;
 }

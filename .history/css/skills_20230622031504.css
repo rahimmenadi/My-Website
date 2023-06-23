@@ -27,7 +27,7 @@ align-items: center;
 
 .content {
 	width: 80vw;
-	height: 60vh;
+	height: 56vh;
 	background: #fff0;
     position: relative;
 align-items: center;
@@ -571,6 +571,21 @@ ul.skills li.more input:checked + label:hover {
 		background: var(--c1);
 	}
 }
+.content {
+	display: flex;
+	justify-content: center;
+  }
+  .profile-skills {
+	display: flex;
+  }
+  
+  .skills {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+  }
 
+ 
   
   
