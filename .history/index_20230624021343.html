@@ -50,7 +50,7 @@
     <link rel="stylesheet" href="css/spiner.css">
   </head>
   <body>
-     <div class="loader-warapper">
+ <div class="loader-warapper">
     <svg role="img" aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00" class="smiley" viewBox="0 0 128 128" width="128px" height="128px">
       <defs>
         <clipPath id="smiley-eyes">
@@ -82,12 +82,12 @@
         </g>
       </g>
     </svg>
-    <div class="lottie-player">
+    
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_5s1rumi5.json" background="transparent" speed="2.35" style="width: 250px; height: 300px;" loop autoplay></lottie-player>
-    </div>
   
-  </div>
+  <
+  
     <header id="hero">
       <!-- Navbar -->
       <nav class="navbar">
@@ -338,14 +338,10 @@
         <p>Copyright &copy; Abderrahim-Menadi <span id="datee"></span>, All rights reserved</p>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <script src="js/script.js"></script>
     <script>
       setTimeout(function(){
-        $('.loader-warapper').fadeToggle();
-
-      },2100);
+        $('.loader-warapper').fadeOut()},1500);
     </script>
    
   </body>

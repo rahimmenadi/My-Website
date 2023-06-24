@@ -1,4 +1,10 @@
+$(window).on("load",function(){
+  setTimeout(
+    $('.loader-warapper').fadet(),1500);
 
+)};)
+setTimeout(function(){
+  $('#loadertime').fadeOut("slow")},1500);
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
