@@ -105,56 +105,28 @@ h2::selection {
   margin: 0 auto;
   max-width: 700px;
 }
-.card-cer:nth-child(1) {
+.card:nth-child(1) {
 
-  background: url(../assets/nvidia-brand-logo-2.jpg) center center/cover;
+  background: url(../assets/project/buy-it.png) center center/cover;
 }
 
 /* Project 2 */
-.card-cer:nth-child(2) {
-  background: url(../assets/universite-de-montreal-1.svg) center center/cover;
+.card-ce:nth-child(2) {
+  background: url(../assets/project/seller-it.png) center center/cover;
 }
 
 /* Project 3 */
 .card-cer:nth-child(3) {
-  background: url(../assets/rxezjyf4ojx41.png) center center/cover
+  background: url(../assets/project/admin-it.png) center center/cover
   
 }
 
 /* Project 4 */
 .card-cer:nth-child(4) {
-  background: url(../assets/6470813.png) center center/cover;
+  background: url(../assets/project/tkiii.png) center center/cover;
 }
 
 /* Project cards */
-.card-cer {
-  padding: 1rem;
-  background: var(--card-background);
-  color: #ffffff;
-  border-radius: 5px;
-  transition: 0.4s ease-in-out;
-  cursor: pointer;
-}
-
-.card-cer a {
-  color: #ffffff;
-  transition: 0.25s ease-in-out;
-  font-size: 1.1rem;
-  margin-right: 0.3rem;
-}
-
-.card-cer a:hover {
-  color: var(--primary-color);
-}
-
-.card-cer:hover {
-  box-shadow: inset 0 100px 1000px 10px rgba(0, 0, 0, 0.8);
-}
-
-.card-cer:hover .project-info {
-  opacity: 1;
-}
-
 .card {
   padding: 1rem;
   background: var(--card-background);

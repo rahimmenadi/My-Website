@@ -107,23 +107,23 @@ h2::selection {
 }
 .card-cer:nth-child(1) {
 
-  background: url(../assets/nvidia-brand-logo-2.jpg) center center/cover;
+  background: url(../assets/) center center/cover;
 }
 
 /* Project 2 */
 .card-cer:nth-child(2) {
-  background: url(../assets/universite-de-montreal-1.svg) center center/cover;
+  background: url(../assets/project/seller-it.png) center center/cover;
 }
 
 /* Project 3 */
 .card-cer:nth-child(3) {
-  background: url(../assets/rxezjyf4ojx41.png) center center/cover
+  background: url(../assets/project/admin-it.png) center center/cover
   
 }
 
 /* Project 4 */
 .card-cer:nth-child(4) {
-  background: url(../assets/6470813.png) center center/cover;
+  background: url(../assets/project/tkiii.png) center center/cover;
 }
 
 /* Project cards */
