@@ -194,12 +194,12 @@ h2::selection {
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/seller-it.png) center center/cover;
+  background: url(../assets/project/admin-it.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/admin-it.png) center center/cover
+  background: url(../assets/project/Yellow\ and\ Black\ Minimalist\ Catering\ Logo.png) center center/cover
   
 }
 
