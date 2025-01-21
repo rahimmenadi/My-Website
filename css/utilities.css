@@ -217,6 +217,10 @@ h2::selection {
 .card:nth-child(6) {
   background: url(../assets/project/e-sbitar.png) center center/cover;
 }
+/* Project 6 */
+.card:nth-child(7) {
+  background: url(../assets/project/1737375622112.jpg) center center/cover;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
